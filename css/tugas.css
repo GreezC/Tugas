@@ -70,7 +70,7 @@
 }
 
 .tb {
-    width: 100%;
+    width: 50%;
    margin: auto;
    border-collapse: collapse;
    min-height: 100px;
@@ -79,10 +79,18 @@
 .tb th, .tb td {
     padding: 20px;
     text-align: center;
+    display: flexbox;
 }
 
 .main-section {
     background-color: #f9f9f9;
     padding: 40px 0;
     height: 150vh;
+}
+
+@media (max-width: 100px) {
+    .container {
+        flex-direction: column;
+        width: auto;
+    }
 }

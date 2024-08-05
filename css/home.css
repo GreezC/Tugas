@@ -187,3 +187,9 @@
     margin: 0;
     font-size: 14px;
 }
+
+@media (max-width: 100px) {
+    .container {
+        flex-direction: column;
+    }
+}
